@@ -1,0 +1,324 @@
+[
+  {
+    'type': 'flight-offer',
+    'id': '1',
+    'source': 'GDS',
+    'instantTicketingRequired': False,
+    'nonHomogeneous': False,
+    'oneWay': False,
+    'lastTicketingDate': '2020-05-30',
+    'numberOfBookableSeats': 9,
+    'itineraries': [
+      {
+        'duration': 'PT2H4M',
+        'segments': [
+          {
+            'departure': {
+              'iataCode': 'SLC',
+              'terminal': '2',
+              'at': '2020-08-01T22:26:00'
+            },
+            'arrival': {
+              'iataCode': 'SFO',
+              'terminal': '1',
+              'at': '2020-08-01T23:30:00'
+            },
+            'carrierCode': 'DL',
+            'number': '2416',
+            'aircraft': {
+              'code': '321'
+            },
+            'operating': {
+              'carrierCode': 'DL'
+            },
+            'duration': 'PT2H4M',
+            'id': '2',
+            'numberOfStops': 0,
+            'blacklistedInEU': False
+          }
+        ]
+      },
+      {
+        'duration': 'PT1H47M',
+        'segments': [
+          {
+            'departure': {
+              'iataCode': 'SFO',
+              'terminal': '1',
+              'at': '2020-08-05T18:49:00'
+            },
+            'arrival': {
+              'iataCode': 'SLC',
+              'terminal': '2',
+              'at': '2020-08-05T21:36:00'
+            },
+            'carrierCode': 'DL',
+            'number': '936',
+            'aircraft': {
+              'code': '320'
+            },
+            'operating': {
+              'carrierCode': 'DL'
+            },
+            'duration': 'PT1H47M',
+            'id': '3',
+            'numberOfStops': 0,
+            'blacklistedInEU': False
+          }
+        ]
+      }
+    ],
+    'price': {
+      'currency': 'USD',
+      'total': '312.40',
+      'base': '272.00',
+      'fees': [
+        {
+          'amount': '0.00',
+          'type': 'SUPPLIER'
+        },
+        {
+          'amount': '0.00',
+          'type': 'TICKETING'
+        }
+      ],
+      'grandTotal': '312.40'
+    },
+    'pricingOptions': {
+      'fareType': [
+        'PUBLISHED'
+      ],
+      'includedCheckedBagsOnly': False
+    },
+    'validatingAirlineCodes': [
+      'DL'
+    ],
+    'travelerPricings': [
+      {
+        'travelerId': '1',
+        'fareOption': 'STANDARD',
+        'travelerType': 'ADULT',
+        'price': {
+          'currency': 'USD',
+          'total': '156.20',
+          'base': '136.00'
+        },
+        'fareDetailsBySegment': [
+          {
+            'segmentId': '2',
+            'cabin': 'ECONOMY',
+            'fareBasis': 'VRUSA5BC',
+            'brandedFare': 'BASICECON',
+            'class': 'E',
+            'includedCheckedBags': {
+              'quantity': 0
+            }
+          },
+          {
+            'segmentId': '3',
+            'cabin': 'ECONOMY',
+            'fareBasis': 'VRUSA5BC',
+            'brandedFare': 'BASICECON',
+            'class': 'E',
+            'includedCheckedBags': {
+              'quantity': 0
+            }
+          }
+        ]
+      },
+      {
+        'travelerId': '2',
+        'fareOption': 'STANDARD',
+        'travelerType': 'ADULT',
+        'price': {
+          'currency': 'USD',
+          'total': '156.20',
+          'base': '136.00'
+        },
+        'fareDetailsBySegment': [
+          {
+            'segmentId': '2',
+            'cabin': 'ECONOMY',
+            'fareBasis': 'VRUSA5BC',
+            'brandedFare': 'BASICECON',
+            'class': 'E',
+            'includedCheckedBags': {
+              'quantity': 0
+            }
+          },
+          {
+            'segmentId': '3',
+            'cabin': 'ECONOMY',
+            'fareBasis': 'VRUSA5BC',
+            'brandedFare': 'BASICECON',
+            'class': 'E',
+            'includedCheckedBags': {
+              'quantity': 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    'type': 'flight-offer',
+    'id': '2',
+    'source': 'GDS',
+    'instantTicketingRequired': False,
+    'nonHomogeneous': False,
+    'oneWay': False,
+    'lastTicketingDate': '2020-05-30',
+    'numberOfBookableSeats': 9,
+    'itineraries': [
+      {
+        'duration': 'PT2H1M',
+        'segments': [
+          {
+            'departure': {
+              'iataCode': 'SLC',
+              'terminal': '2',
+              'at': '2020-08-01T15:10:00'
+            },
+            'arrival': {
+              'iataCode': 'SFO',
+              'terminal': '1',
+              'at': '2020-08-01T16:11:00'
+            },
+            'carrierCode': 'DL',
+            'number': '1241',
+            'aircraft': {
+              'code': '319'
+            },
+            'operating': {
+              'carrierCode': 'DL'
+            },
+            'duration': 'PT2H1M',
+            'id': '1',
+            'numberOfStops': 0,
+            'blacklistedInEU': False
+          }
+        ]
+      },
+      {
+        'duration': 'PT1H47M',
+        'segments': [
+          {
+            'departure': {
+              'iataCode': 'SFO',
+              'terminal': '1',
+              'at': '2020-08-05T18:49:00'
+            },
+            'arrival': {
+              'iataCode': 'SLC',
+              'terminal': '2',
+              'at': '2020-08-05T21:36:00'
+            },
+            'carrierCode': 'DL',
+            'number': '936',
+            'aircraft': {
+              'code': '320'
+            },
+            'operating': {
+              'carrierCode': 'DL'
+            },
+            'duration': 'PT1H47M',
+            'id': '3',
+            'numberOfStops': 0,
+            'blacklistedInEU': False
+          }
+        ]
+      }
+    ],
+    'price': {
+      'currency': 'USD',
+      'total': '352.40',
+      'base': '312.00',
+      'fees': [
+        {
+          'amount': '0.00',
+          'type': 'SUPPLIER'
+        },
+        {
+          'amount': '0.00',
+          'type': 'TICKETING'
+        }
+      ],
+      'grandTotal': '352.40'
+    },
+    'pricingOptions': {
+      'fareType': [
+        'PUBLISHED'
+      ],
+      'includedCheckedBagsOnly': False
+    },
+    'validatingAirlineCodes': [
+      'DL'
+    ],
+    'travelerPricings': [
+      {
+        'travelerId': '1',
+        'fareOption': 'STANDARD',
+        'travelerType': 'ADULT',
+        'price': {
+          'currency': 'USD',
+          'total': '176.20',
+          'base': '156.00'
+        },
+        'fareDetailsBySegment': [
+          {
+            'segmentId': '1',
+            'cabin': 'ECONOMY',
+            'fareBasis': 'XAVSH3BC',
+            'brandedFare': 'BASICECON',
+            'class': 'E',
+            'includedCheckedBags': {
+              'quantity': 0
+            }
+          },
+          {
+            'segmentId': '3',
+            'cabin': 'ECONOMY',
+            'fareBasis': 'VRUSA5BC',
+            'brandedFare': 'BASICECON',
+            'class': 'E',
+            'includedCheckedBags': {
+              'quantity': 0
+            }
+          }
+        ]
+      },
+      {
+        'travelerId': '2',
+        'fareOption': 'STANDARD',
+        'travelerType': 'ADULT',
+        'price': {
+          'currency': 'USD',
+          'total': '176.20',
+          'base': '156.00'
+        },
+        'fareDetailsBySegment': [
+          {
+            'segmentId': '1',
+            'cabin': 'ECONOMY',
+            'fareBasis': 'XAVSH3BC',
+            'brandedFare': 'BASICECON',
+            'class': 'E',
+            'includedCheckedBags': {
+              'quantity': 0
+            }
+          },
+          {
+            'segmentId': '3',
+            'cabin': 'ECONOMY',
+            'fareBasis': 'VRUSA5BC',
+            'brandedFare': 'BASICECON',
+            'class': 'E',
+            'includedCheckedBags': {
+              'quantity': 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
